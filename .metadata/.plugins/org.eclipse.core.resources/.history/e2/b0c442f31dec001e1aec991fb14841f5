@@ -1,0 +1,17 @@
+package emp;
+class A{
+	byte a;
+	int b=10;
+	void cast() {
+	 a=(byte)b;
+	 System.out.println("byte :"+a);
+	}
+}
+public class Typecast {
+
+	public static void main(String[] args) {
+		A obj=new A();
+		obj.cast();
+	}
+
+}

@@ -1,0 +1,15 @@
+package emp;
+class B{
+	public int a=10;
+	public boolean b=true;
+	void datatypes() {
+	System.out.println("int:"+a);
+	System.out.println("boolean:"+b);
+	}
+}
+public class Data {
+    public static void main(String[]args) {
+    	B obj=new B();
+    	obj.datatypes();
+    }
+}

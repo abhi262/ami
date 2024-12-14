@@ -1,0 +1,8 @@
+package emp;
+ class EmployeeManagement {
+	public static void main(String[] args) {
+//			new EmployeeView();	
+		EmployeeView obj=new EmployeeView();
+		obj.EmployeeView();
+		}
+}

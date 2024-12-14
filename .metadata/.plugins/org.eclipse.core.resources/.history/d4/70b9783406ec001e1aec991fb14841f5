@@ -1,0 +1,17 @@
+package emp;
+class B{
+	public int a=10003;
+    long  c=1000000007999966667L;
+	public boolean b=true;
+	void datatypes() {
+	System.out.println("int:"+a);
+	System.out.println("boolean:"+b);
+	System.out.println("long :"+c);
+	}
+}
+public class Data {
+    public static void main(String[]args) {
+    	B obj=new B();
+    	obj.datatypes();
+    }
+}

@@ -1,0 +1,10 @@
+
+public class Datatypes {
+
+	public static void main(String[] args) {
+//		int a=10000;
+	 long b=10000000;
+		System.out.println(b);
+	}
+
+}

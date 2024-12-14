@@ -1,0 +1,22 @@
+package emp;
+class A{
+	//narrowing
+	byte a;
+	int b=1234;
+	//widening
+	int c;
+	byte d=12;
+	void cast() {
+	 a=(byte)b;
+	 c=d;
+	 System.out.println("narrowing :"+a);
+	 System.out.println("shadowing :"+c);
+	}
+}
+public class Typecast {
+	public static void main(String[] args) {
+		A obj=new A();
+		obj.cast();
+	}
+
+}
